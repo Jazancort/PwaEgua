@@ -19,7 +19,14 @@
     />
 
     <login-buttons />
-    <p class="q-pt-md text-center text-overline text-black q-pa-none q-ma-none">versão: {{ versionApp }}</p>
+    <p class="q-pt-lg text-center text-overline text-black q-pa-none q-ma-none">versão: {{ versionApp }}</p>
+    <div class="text-center">
+      <q-btn flat size="xs" :ripple="false" type="a" target="_blank" href="https://github.com/Jazancort">
+        <q-icon name="fab fa-github">
+          <p class="q-pt-md q-pl-sm text-right font_semi-bold text-black">Jazancort</p>
+        </q-icon>
+      </q-btn>
+    </div>
   </q-page>
 </template>
 
