@@ -8,9 +8,8 @@
               align="justify"
               no-caps
               class="text-grey-8 font_bold"
-              narrow-indicator
               switch-indicator
-              active-color="primary"
+              active-color="purple-14"
               content-class="custom-tab"
             >
               <q-route-tab
@@ -18,41 +17,28 @@
               style="font-size: 12px"
               no-caps to="/dashboard"
               >
-                <q-icon size="1rem" name="fas fa-home" />
-                Início
+                <q-icon class="q-pb-xs" size="1rem" name="fas fa-horse-head" />
+                <!-- <img
+                    class="q-pb-sm q-pr-sm"
+                    alt="Trusty Icon"
+                    src="eguatechnoname.png"
+                    width="25"
+                  > -->
+                IDEgua
               </q-route-tab>
               <q-route-tab
               class="font_bold"
               style="font-size: 12px"
               no-caps to="/busca"
               >
-                <q-icon size="1rem" name="fas fa-search" />
-                Busca
-              </q-route-tab>
-              <q-route-tab
-              class="font_bold"
-              style="font-size: 12px"
-              no-caps to="/seguros"
-              >
-                <q-icon size="1rem" name="fas fa-shield-alt" />
-                Seguros
-              </q-route-tab>
-              <q-route-tab
-              class="font_bold"
-              style="font-size: 12px"
-              no-caps to="/duvidas"
-              >
-                <q-icon size="1rem" name="fas fa-question" />
-                Dúvidas
-              </q-route-tab>
-              <q-route-tab
-              class="font_bold"
-              style="font-size: 12px"
-              no-caps
-              to="/perfil"
-              >
-                <q-icon size="1rem" name="fas fa-user" />
-                Perfil
+                <q-icon class="icon-flipped q-pb-xs" size="1rem" name="fas fa-horse-head" />
+                <!-- <img
+                  class="q-pb-sm q-pr-sm"
+                  alt="Trusty Icon"
+                  src="eguatechPB.png"
+                  width="25"
+                > -->
+                Documentação
               </q-route-tab>
             </q-tabs>
           <!-- </div>  -->
