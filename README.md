@@ -1,6 +1,6 @@
 # EguaPwa (eguapwa)
 
-PWA para projetos Egua
+PWA para o IDEgua e Documentação da Linguagem Egua.
 
 ## Install the dependencies
 ```bash
